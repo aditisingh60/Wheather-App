@@ -63,7 +63,7 @@ const fetchResults = async () => {
             background.src = "Misty.mp4"
         }
         else if(data.weather[0].main == "Clear"){
-            background.src = "bg.mov";
+            background.src = "bg.mp4";
         }
         else if(data.weather[0].main == "Rain"){
             background.src = "rain.mp4";
