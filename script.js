@@ -46,9 +46,15 @@ const fetchResults = async () => {
         let condition = data.weather[0].main;
 
         update(temp, locationName, timezoneOffset, condition);
-
-        if (temp <= 10) {
+    
+        if(data.weather[0].main == "Rain"){
+            background.src = "rain.mp4";
+        }
+        else if (temp <= 3) {
             background.src = "Snow.mp4";
+        }
+        else if (temp <= 10) {
+            background.src = "snowey.mp4";
         }
         else if (data.weather[0].main == "Clouds") {
             background.src = "Cloudy.mp4";
@@ -64,9 +70,6 @@ const fetchResults = async () => {
         }
         else if(data.weather[0].main == "Clear"){
             background.src = "bg.mp4";
-        }
-        else if(data.weather[0].main == "Rain"){
-            background.src = "rain.mp4";
         }
         else{
             background.src = "Smokey.mp4";

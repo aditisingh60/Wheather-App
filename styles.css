@@ -27,7 +27,7 @@
     border-radius: 2rem;
     background-color: rgba(0, 0, 0, 0.3);
     gap: 2rem;
-    border: 1px solid black;
+    
 }
 .temp{
     font-size: 4.5rem;
@@ -102,13 +102,12 @@
     border-radius: 2rem;
     padding: 2rem;
     color: white;
-    text-align: center;
     font-family: "Abyssinica SIL", serif;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 4rem;
-    border: 0.5px solid rgba(0, 0, 0);
+    /* border: 0.5px solid rgba(0, 0, 0); */
     animation: slideInFromTop 0.8s ease-in forwards;
 }
 a{
