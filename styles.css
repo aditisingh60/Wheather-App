@@ -22,7 +22,7 @@
     justify-content: center;
     align-items: center;
     margin: 2rem;
-    backdrop-filter: blur(2rem);
+    /* backdrop-filter: blur(2rem); */
     padding: 4rem;
     border-radius: 2rem;
     background-color: rgba(0, 0, 0, 0.3);
@@ -97,7 +97,7 @@
     
 }
 .header{
-    backdrop-filter: blur(2rem);
+    /* backdrop-filter: blur(2rem); */
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 2rem;
     padding: 2rem;
